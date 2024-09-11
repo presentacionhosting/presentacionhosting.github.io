@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparativa de Hosting Gratuito</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Comparativa de Proveedores de Hosting Gratuito</h1>
+    </header>
+
+    <main>
+        <section class="hosting" id="infinityfree">
+            <h2>InfinityFree</h2>
+            <p><strong>Definición:</strong> Hosting gratuito con 5 GB de almacenamiento y ancho de banda ilimitado.</p>
+            <button class="toggle-btn" onclick="toggleDetails('infinity-details')">Mostrar más detalles</button>
+            <div id="infinity-details" class="details">
+                <ul>
+                    <li><strong>Ventajas:</strong> Sin anuncios, ancho de banda ilimitado, compatible con WordPress.</li>
+                    <li><strong>Desventajas:</strong> No incluye cuentas de correo, sin soporte directo.</li>
+                    <li><strong>Casos de uso:</strong> Ideal para blogs personales o sitios web pequeños.</li>
+                    <li><strong>Modelo de negocio:</strong> Ofrecen planes premium.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="hosting" id="github-pages">
+            <h2>GitHub Pages</h2>
+            <p><strong>Definición:</strong> Servicio gratuito para alojar sitios web estáticos directamente desde GitHub.</p>
+            <button class="toggle-btn" onclick="toggleDetails('github-details')">Mostrar más detalles</button>
+            <div id="github-details" class="details">
+                <ul>
+                    <li><strong>Ventajas:</strong> Gratuito, sin anuncios, permite usar dominio personalizado.</li>
+                    <li><strong>Desventajas:</strong> Solo admite sitios estáticos, requiere conocimientos de Git.</li>
+                    <li><strong>Casos de uso:</strong> Ideal para desarrolladores o sitios de documentación.</li>
+                    <li><strong>Modelo de negocio:</strong> Parte del ecosistema GitHub, con planes premium para proyectos grandes.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Comparativa de hosting gratuito - 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
